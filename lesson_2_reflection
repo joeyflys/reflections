@@ -1,0 +1,6 @@
+lesson_2_reflection
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates the folder as a repository and enables you to commit changes.
+You need to do this before it can be used to track changes.
