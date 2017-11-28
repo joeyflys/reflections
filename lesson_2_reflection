@@ -2,5 +2,13 @@ lesson_2_reflection
 
 What happens when you initialize a repository? Why do you need to do it?
 
-It creates the folder as a repository and enables you to commit changes.
-You need to do this before it can be used to track changes.
+	It creates the folder as a repository and enables you to commit changes.
+	You need to do this before it can be used to track changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it Offers?
+
+	The working directory is where you make your changes and these changes are added to the staging area in advance of committing the changes.  After the changes are committed they become part of the repository. This offers value by providing a way for you to record smaller changes and gives you the ability to revert back if you change your mind before committing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can go ahead and do a git add on the file in the working directory anytime you have made a small change and then do a git commit to add it to the repository with a description of the change.
